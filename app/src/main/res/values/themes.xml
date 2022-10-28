@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GameApplication" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_unimelb</item>
+        <item name="colorPrimaryVariant">@color/blue_dark_unimelb</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/amber</item>
+        <item name="colorSecondaryVariant">@color/amber_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.GameApplication.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.GameApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.GameApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="navigation_bar" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:background">@drawable/bottom_nav_background</item>
+        <item name="android:elevation">8dp</item>
+        <item name="itemIconTint">@drawable/bottom_nav_color_selector</item>
+    </style>
+
+    <style name="userFragmentBgColor" >
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="gameActivity" >
+        <item name="android:background">@drawable/background</item>
+    </style>
+
+    <style name="toolBox" >
+        <item name="android:background">@drawable/border</item>
+    </style>
+
+
+</resources>
