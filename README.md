@@ -5,3 +5,6 @@
 <span style="color: #808080; font-size: 24pt;" data-darkreader-inline-color="">Mobile Computing Systems Programming</span>
 
 <span style="color: #808080; font-size: 12pt;" data-darkreader-inline-color="">2022 - Semester 2</span>
+
+
+[For more information](https://raw.githubusercontent.com/R-HUA/COMP90018-Android-App/main/README.pptx)
